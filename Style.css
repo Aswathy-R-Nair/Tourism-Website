@@ -1,0 +1,120 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'itim',cursive;
+}
+body{
+  margin: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  color: black;
+  background-color: #ffff;
+}
+div{
+  display: block;
+}
+
+.container-fluid{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right:auto;
+  margin-left: auto;
+
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col{
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+.col{
+  -ms-flex-preferred-size:0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+.carousel{
+  position: relative;
+}
+.carousel-inner{
+    position:relative;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel-item active{
+  display: block;
+}
+.carousel-item{
+  position: relative;
+  display: none;
+  -webkit-box-align: center;
+  -ms-flex-align: none;
+  width: 100%;
+  perspective: 1000px; 
+  align-items: center;
+  backface-visibility: hidden;
+ 
+}
+.carousel-item img{
+  height: 100%;
+  width: 800px;;
+
+}
+.d-block{
+  display: block !important;
+}
+img{
+  vertical-align: middle;
+  border-style: none;
+}
+.align-self{
+  align-self: center;
+}
+.about{
+  font-size: 18px;
+  line-height: 31px;
+}
+p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.footer{
+  height: 90px;
+  box-sizing: border-box;
+  display: flex;
+  font-size: 20px;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(187, 238, 238);
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+.card1{
+  box-sizing: border-box;
+ 
+}
